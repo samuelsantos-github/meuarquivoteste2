@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário de Interesse</h1>
+    <form action="post_cortesia.html">
+        <label>Qual é o nome da sua açaiteria?</label>
+        <input type="text" name="nome_acaiteria" required><br>
+
+        <label>Qual é o seu nome?</label>
+        <input type="text" name="nome" required><br>
+
+        <label>Qual é o seu e-mail?</label>
+        <input type="email" name="email" required><br>
+
+        <label>Qual é o seu número de telefone?</label>
+        <input type="tel" name="telefone" required><br>
+
+        <label>Quais tipos de serviços você está interessado?</label><br>
+        <input type="checkbox" name="servicos" value="posts"> Criação de posts para Instagram<br>
+        <input type="checkbox" name="servicos" value="banners"> Criação de banners<br>
+        <input type="checkbox" name="servicos" value="logotipos"> Criação de logotipos<br>
+        <input type="checkbox" name="servicos" value="outros"> Outros (especificar)<br>
+
+        <label>Qual é o seu público-alvo?</label>
+        <textarea name="publico_alvo"></textarea><br>
+
+        <label>Quais cores ou temas você prefere para seus designs?</label>
+        <input type="text" name="cores_temas"><br>
+
+        <label>Você tem algum exemplo de design que goste?</label>
+        <textarea name="exemplo_design"></textarea><br>
+
+        <label>Gostaria de agendar uma reunião para discutir suas necessidades em detalhes?</label><br>
+        <input type="radio" name="reuniao" value="sim" required> Sim<br>
+        <input type="radio" name="reuniao" value="não" required> Não<br>
+
+        <label>Comentários adicionais:</label>
+        <textarea name="comentarios"></textarea><br>
+
+        <button type="submit">Clique aqui para adquirir o link para baixar o post cortesia</button>
+    </form>
+</body>
+</html>
